@@ -1,0 +1,3 @@
+FORTH.exe: Division by zero
+CallStack (from HasCallStack):
+  error, called at Eval.hs:23:17 in main:Eval

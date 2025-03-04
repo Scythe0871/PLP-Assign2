@@ -1,0 +1,3 @@
+FORTH.exe: Stack underflow
+CallStack (from HasCallStack):
+  error, called at Eval.hs:60:23 in main:Eval
