@@ -34,7 +34,7 @@ cabal build
 ### 5. Run the Interpreter
 To execute a `.4TH` test file:
 ```sh
-dist-newstyle/build/x86_64-windows/ghc-8.2.2/FORTH-0.1.0.0/x/FORTH/build/FORTH/FORTH.exe tests/t1.4TH >> tests/t1.out
+cabal run FORTH tests/t1.4TH >> tests/t1.out
 ```
 Similarly , for other test files, replace `t1.4TH` with the desired file name and `t1.out` with the desired output file name.
 
